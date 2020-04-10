@@ -11,9 +11,11 @@ import Navbar from "./components/Navbar";
 import PrivateRoute from "./components/PrivateRoute";
 import LoginRoute from "./components/LoginRoute";
 
+import { ContextProvider } from "./contexts";
+
 const Router = () => {
   return (
-    <>
+    <ContextProvider>
       <BrowserRouter>
         <>
           <Navbar />
@@ -28,7 +30,7 @@ const Router = () => {
         </>
       </BrowserRouter>
       <GlobalStyle />
-    </>
+    </ContextProvider>
   );
 };
 
