@@ -2,6 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A Simple CRA template made my [Utkarsh Bhimte](https://twitter.com/bhimtebhaisaab) according to all his preferences
 
+## Installation
+
+```
+npx create-react-app my-app --template jabardast
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

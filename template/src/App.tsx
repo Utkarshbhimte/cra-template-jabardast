@@ -4,9 +4,10 @@ import { BrowserRouter, Switch } from "react-router-dom";
 // pages
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
+
+// components
 import { GlobalStyle } from "./utils/globalStyles";
 import Navbar from "./components/Navbar";
-
 import PrivateRoute from "./components/PrivateRoute";
 import LoginRoute from "./components/LoginRoute";
 
