@@ -39,9 +39,25 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Component Template
+## Component Template
 
-I am using [birla](https://www.npmjs.com/package/birla) for managing component templates which makes it easier to maintain a simple project structure and component structure.
+I am using [birla](https://www.npmjs.com/package/birla) for managing component templates which makes it easier to maintain a simple project structure and component structure. There are scripts in package.json which helps in creating components from the template. The templates are in the `birla-templates` folder.
+
+## State Management
+
+I am using react context for state management
+
+## Firebase Integration
+
+Using [firebase hooks](https://www.npmjs.com/package/react-firebase-hooks) for linking to firebase-firestore.
+
+## Styling
+
+Using [styled-components](https://www.npmjs.com/package/styled-components) for the styling.
+
+### Global Style Variables
+
+I am using CSS variables that are located in the `src/utils/globalStyles.ts`
 
 ## Learn More
 
