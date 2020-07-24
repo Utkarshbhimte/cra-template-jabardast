@@ -3,7 +3,7 @@ import React, { useState, useContext } from "react";
 export interface $NAME_pState {}
 const $NAME_pContext = React.createContext<$NAME_pState | null>(null);
 
-export const $NAME_pContextProvider = props => {
+export const $NAME_pContextProvider: React.FC = (props) => {
   const [$NAME_s, set$NAME_p] = useState(null);
 
   return (
